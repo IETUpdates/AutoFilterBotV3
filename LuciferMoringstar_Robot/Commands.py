@@ -45,7 +45,7 @@ async def start(bot, message):
                 ident, file_id = message.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=message.from_user.id,
-                    text="**Please Join My Updates Channel to use this Bot!**",
+                    text="**Please Join My Updates Channel to use this Bot!താഴെ ഉള്ള ചാനലിൽ ജോയിൻ ചെയ്താലേ സിനിമ കിട്ടുള്ളു..**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
@@ -99,7 +99,7 @@ async def start(bot, message):
         invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
         await bot.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**Please Join My Updates Channel to use this Bot! താഴെ ഉള്ള ചാനലിൽ ജോയിൻ ചെയ്താലേ സിനിമ കിട്ടുള്ളു..**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -115,7 +115,7 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("Search Here", switch_inline_query_current_chat='')
+                InlineKeyboardButton("👩‍💻 Creator ", url=https://instagram.com/iqbal_ka_?utm_medium=copy_link)
                 ],[
                 InlineKeyboardButton("Help", callback_data="help"),
                 InlineKeyboardButton("About", callback_data="about")
