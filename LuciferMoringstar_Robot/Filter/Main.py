@@ -115,7 +115,7 @@ async def group(client, message):
     if 2 < len(message.text) < 50:    
         btn = []
         search = message.text
-        mo_tech_yt = f"**🗂️ Title:** {search}\n**⭐ Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**📤 Uploaded by {message.chat.title}**"
+        mo_tech_yt = f"**🗂️ Title:** {search}\n**⭐ Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**📤 Uploaded by {message.chat.title} ™ @MM_MOVIESS**"
         nyva=BOT.get("username")
         if not nyva:
             botusername=await client.get_me()
@@ -321,7 +321,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     )
         elif query.data.startswith("checksub"):
             if AUTH_CHANNEL and not await is_subscribed(client, query):
-                await query.answer("I Like Your Smartness, But Don't Be Oversmart 😒",show_alert=True)
+                await query.answer("I Like Your Smartness, But Don't Be Oversmart ഒന്ന് പോടാ ചെക്കാ...ജോയിൻ ചെയ്യാൻ പറഞ്ഞാ അത് ചെയ്യ്..😒",show_alert=True)
                 return
             ident, file_id = query.data.split("#")
             filedetails = await get_file_details(file_id)
@@ -355,4 +355,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "pages":
             await query.answer()
     else:
-        await query.answer("കൌതുകും ലേശം കൂടുതൽ ആണല്ലേ👀",show_alert=True)
+        await query.answer("കൌതുകും ലേശം കൂടുതൽ ആണല്ലേ.👀 നിനക്ക് വേണമെങ്കിൽ നീ Request ചെയ്യ്..ഇവിടെ ഞെക്കീട്ട് കാര്യല്ല",show_alert=True)
