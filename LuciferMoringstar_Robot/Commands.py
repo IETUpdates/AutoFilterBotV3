@@ -115,7 +115,7 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("👩‍💻 Creator ", url=https://instagram.com/iqbal_ka_?utm_medium=copy_link)
+                InlineKeyboardButton("👩‍💻 Creator", url=https://instagram.com/iqbal_ka_?utm_medium=copy_link)
                 ],[
                 InlineKeyboardButton("Help", callback_data="help"),
                 InlineKeyboardButton("About", callback_data="about")
