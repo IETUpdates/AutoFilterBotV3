@@ -20,13 +20,13 @@ HELP = """
 """
 
 ABOUT = """
-➥ Name :  Auto Filter V3
+**➥ Name :**  Auto Filter V3
     
-➥ Creator : [IQBAL](https://instagram.com/iqbal_ka_?utm_medium=copy_link)
+**➥ Creator :** [IQBAL](https://instagram.com/iqbal_ka_?utm_medium=copy_link)
 
-➥ Language : Python3
+**➥ Language :** Python3
 
-➥ Library : Pyrogram Asyncio 1.13.0
+**➥ Library :** Pyrogram Asyncio 1.13.0
 
-➥ Tutorials : [Click Me](https://youtube.com/channel/UCNNbwBV9doS0GgSXJS7eTOQ)
+**➥ Tutorials :** [Click Me](https://youtube.com/channel/UCNNbwBV9doS0GgSXJS7eTOQ)
 """
