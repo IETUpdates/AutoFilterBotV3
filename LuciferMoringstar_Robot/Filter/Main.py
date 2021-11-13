@@ -277,7 +277,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "help":
             buttons = [
                 [
-                    InlineKeyboardButton("🚶Back", callback_data="start")
+                    InlineKeyboardButton("🚶Back", callback_data="back")
                 ]
                 ]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -285,7 +285,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('🔗 Source Code', url=f'{TUTORIAL}')
+                    InlineKeyboardButton("🚫 Close", callback_data="close")
                 ]
                 ]
             await query.message.edit(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -355,4 +355,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "pages":
             await query.answer()
     else:
-        await query.answer("കൌതുകും ലേശം കൂടുതൽ ആണല്ലേ.😆 നിനക്ക് വേണമെങ്കിൽ നീ Request ചെയ്യ്..ഇവിടെ ഞെക്കീട്ട് കാര്യല്ല🙄",show_alert=True)
+        await query.answer("കൌതുകം ലേശം കൂടുതൽ ആണല്ലേ.😆 നിനക്ക് വേണമെങ്കിൽ നീ Request ചെയ്യ്..ഇവിടെ ഞെക്കീട്ട് കാര്യല്ല🙄",show_alert=True)
