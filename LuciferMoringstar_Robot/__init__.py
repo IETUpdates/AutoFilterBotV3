@@ -12,7 +12,7 @@ from .Channel import (
 
 HELP = """
 
-**No One Help You 😃** 
+**No One Gonna Help You 😃** 
 
 നിന്നെ ആരും സഹായിക്കാൻ വരില്ല... 
 എന്തായാലും വന്നതല്ലേ.. @MOVIESS_VILLA -യിൽ join ചെയ്ത് movie request ചെയ്യ്..
@@ -20,7 +20,7 @@ HELP = """
 """
 
 ABOUT = """
-**➥ Name :**  Auto Filter V3
+**➥ Name :**  Dᴜʟǫᴜᴇʀ ◢ ◤
     
 **➥ Creator :** [IQBAL](https://instagram.com/iqbal_ka_?utm_medium=copy_link)
 
